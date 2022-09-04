@@ -1,0 +1,74 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  background-color: black;
+}
+#logo{
+  height: 100px;
+  width: 100px;
+  margin: 20px;
+  margin-left: 35%;
+  padding: 20px;
+}
+#logo:hover{
+  border: 2px solid red;
+  border-radius: 180px;
+  transition: 10s;
+}
+.NAV{
+  text-align: center;
+}
+
+.NAV a{
+  margin-left: 20px;
+  text-decoration: none;
+  color: red;
+}
+.NAV a::after{
+  content: '';
+  width: 0%;
+  height: 2px;
+  background: #f44336;
+  display: inline-block;
+  margin: auto;
+  transition: 0.5s;
+}
+.NAV a:hover::after{
+  width: 10px;
+}
+video{
+  margin-top: 20px;
+  margin-left: 25%;
+  display: block;
+  height: 100%;
+  border: 3px solid red;
+}
+#hr1{
+  height: 3px;
+  background-color: red;
+  width: 5%;
+}
+#hr1 hr{
+  height: 2px;
+  background-color: red;
+  border: 2px solid red;
+  border-radius: 180px;
+}
+#hr2{
+  height: 3px;
+  background-color: red;
+  width: 10%;
+}
+#hr2 hr{
+  height: 2px;
+  background-color: red;
+  border: 2px solid red;
+  border-radius: 180px;
+}
+#foot-logo{
+  text-align: center;
+  border: 1px dashed red;
+  border-radius: 180px;
+}
